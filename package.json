@@ -1,0 +1,23 @@
+{
+  "name": "ts-package-webpack-template",
+  "version": "1.0.0",
+  "description": "A template for build pure js npm package with webpack,ts,eslint",
+  "keywords": [
+    "webpack",
+    "npm",
+    "ts",
+    "typescript",
+    "eslint"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "yzy@pcomg.com",
+  "license": "ISC"
+}
