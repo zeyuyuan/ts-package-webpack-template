@@ -1,3 +1,3 @@
-export const example = () => {
-    console.log('it work');
+export const example = (message: string): string => {
+  return `it work: ${message}`;
 };
